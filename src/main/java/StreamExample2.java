@@ -10,7 +10,7 @@ public class StreamExample2 {
     public static void main(String[] args) {
 
         List<Integer> list = Arrays.asList(1,3,6,8,2,7,4);
-
+        System.out.println(" Hello");
 
              Stream<Integer> integerStream= list.stream().
                                             filter(n ->n%2 ==0);
